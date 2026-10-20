@@ -1,0 +1,11 @@
+# Recorded samples and downloaded WLASL videos stay local
+data/
+
+# Trained model and the MediaPipe model (downloaded on first run)
+models/*.pkl
+models/*.task
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
